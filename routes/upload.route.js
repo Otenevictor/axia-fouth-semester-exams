@@ -9,7 +9,6 @@ console.log('Upload route initialized');
 const morefields = upload.fields([
     {name: "front", maxCount: 1},
     {name: "back", maxCount: 1},
-    // {name: "video", maxCount: 1}
 ])
 
 route.post('/singles', upload.single("dp"),  singleFile);
