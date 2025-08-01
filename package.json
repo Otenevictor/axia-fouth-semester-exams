@@ -1,0 +1,27 @@
+{
+  "name": "axia-fouth-semester-exams",
+  "version": "1.0.0",
+  "description": "final semester exams for axia Africa: How to create multiple files and upload to cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otenevictor/axia-fouth-semester-exams.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Otenevictor/axia-fouth-semester-exams/issues"
+  },
+  "homepage": "https://github.com/Otenevictor/axia-fouth-semester-exams#readme",
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "multer": "^2.0.2"
+  }
+}
