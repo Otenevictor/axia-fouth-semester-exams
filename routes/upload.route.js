@@ -4,7 +4,7 @@ const upload = require('../utils/multer.js');
 const route = express.Router(); // Create an Express Router instance
 
 
-console.log('Upload route initialized'); // Log to confirm the route is loaded
+console.log('Upload route initialized'); 
 
 const morefields = upload.fields([
     {name: "front", maxCount: 1},
